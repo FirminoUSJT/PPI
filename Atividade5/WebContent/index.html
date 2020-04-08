@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+
+        <div class="page-header">
+            <h1>Cadastrar Paises</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Cadastre o Pais</h3>
+
+                <form action="Paises.do" method="get">
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" class="form-control" name="nome" id="nome" placeholder="Nome">
+                    </div>
+
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label for="populacao">População</label>
+                            <input type="text" class="form-control" name="populacao" id="populacao" placeholder="População">
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label for="area">Area</label>
+                            <input type="text" class="form-control" name="area" id="area" placeholder="Area">
+                        </div>
+                    </div>
+                    <hr /> 
+
+		<div id="action" class="row">
+
+			<div class="col-md-6">
+				<button type="submit" class="btn btn-primary" name="acao" value="Incluir"> Incluir Paises</button>
+				<button type="submit" class="btn btn-primary" name="acao" value="Listar"> Listar Paises </button>
+
+			</div>
+		</div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
